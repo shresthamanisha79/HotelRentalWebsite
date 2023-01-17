@@ -1,0 +1,47 @@
+.main-div-hotel{
+    background-image: url("../../images/hotel.jpg") ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+h1{
+    color: white;
+    padding-top: 100px;
+}
+
+.hotel-form{
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: 550px;
+    margin-top: 120px;
+    margin-left: 840px;
+    align-items: center;
+}
+
+input{
+    height: 35px;
+    width: 300px;
+    background: #f0f0f0;
+    margin-bottom: 20px;
+    text-align: center;
+    box-shadow: 1px 2px 5px lightgrey;
+    border: 1px solid grey;
+}
+
+button{
+    height: 40px;
+    width: 152px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    align-items: center;
+    background-color: #5c788d; 
+    border: 0.25px solid #66869e;  
+    margin-top: 20px; 
+}
+
+button:hover {
+    background-color: rgb(50, 50, 138);
+  }
+
